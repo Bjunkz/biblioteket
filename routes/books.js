@@ -10,7 +10,7 @@ let books = [{title: "Pippi", author: "Astrid Lindgren", year: 1956, rented: fal
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
-    let welcome = `<h1>Welcome to Björns Library</h1>`
+    let welcome = `<h1>Welcome to Björns Lib</h1>`
     let freeBooks = "";
 
     for (book in books){
